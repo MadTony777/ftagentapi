@@ -1,0 +1,7 @@
+333  [main] INFO  ftagentapi.UnitTests - body is: {
+  "cid": "8fc7f121-ab29-4096-a4d7-e1474f5c793b",
+  "fileId": "2bb8ff02-00e4-4da4-8b4c-91c3f523333a",
+  "sourceSystem": "lpu-adapter",
+  "targetSystem": "mains"
+}
+1874 [main] INFO  ftagentapi.UnitTests - Get File Response: {"traceId":"2c026985a2f4f30c","cid":"8fc7f121-ab29-4096-a4d7-e1474f5c793b","description":"Message successfully sent to processing"}

@@ -1,0 +1,8 @@
+345  [main] INFO  ftagentapi.UnitTests - body is: {
+  "cid": "65627515-634e-49be-9c6d-5579d3df7319",
+  "fileId": "2bb8ff02-00e4-4da4-8b4c-91c3f523333a",
+  "sourceSystem": "lpu-adapter",
+  "targetSystem": "mains"
+}
+1679 [main] INFO  ftagentapi.UnitTests - Get File Response: {"traceId":"5a29f8905f65f08b","cid":"65627515-634e-49be-9c6d-5579d3df7319","description":"Message successfully sent to processing"}
+4802 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"65627515-634e-49be-9c6d-5579d3df7319","currentState":"SYS_NOTIFY_PUT_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Successfully moved into system folder"}

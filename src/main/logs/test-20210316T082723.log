@@ -1,0 +1,301 @@
+6733 [main] INFO  ftagentapi.UnitTests - Put File Response: {"cid":"973f72a1-f8ba-4940-9dfd-6a3605084a09","description":"I/O error on POST request for \"http://fs-app-lan-tst.vsk.ru:8083/ft-agent/create-or-continue-state\": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)"}
+9756 [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [192.168.217.93:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+9833 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 2.5.0
+9834 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 66563e712b0b9f84
+9834 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1615872452858
+10199 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: zcv-cGF8S86rukntW79IQw
+10214 [main] INFO  o.a.k.c.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+10346 [main] INFO  ftagentapi.UnitTests - Recieved sent:{"cid":"11b9f1c3-598f-40ef-904e-bd919bddc128","traceId":"","type":"FILE_RECEIVED"}
+16626 [main] INFO  ftagentapi.UnitTests - body is: {
+  "cid": "2fece3de-4a88-469d-afe5-48f510a397a9",
+  "fileId": "2bb8ff02-00e4-4da4-8b4c-91c3f523333a",
+  "sourceSystem": "system-2-dmz",
+  "targetSystem": "system-1"
+}
+16696 [main] INFO  ftagentapi.UnitTests - Get File Response: {"cid":"2fece3de-4a88-469d-afe5-48f510a397a9","description":"I/O error on POST request for \"http://fs-app-lan-tst.vsk.ru:8083/ft-agent/create-or-continue-state\": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)"}
+19698 [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [192.168.70.100:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = producer-2
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+19718 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 2.5.0
+19719 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 66563e712b0b9f84
+19719 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1615872462746
+20808 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+20809 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+21987 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+21988 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+23222 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+23223 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+24510 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+24511 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+26083 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+26083 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+27871 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+27872 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+29796 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+29796 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+31869 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+31869 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+33941 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+33941 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+35909 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+35910 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+38093 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+38093 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+40069 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+40070 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+42214 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+42214 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+44236 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+44237 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+46373 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+46373 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+48289 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+48290 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+50558 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+50558 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+52539 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+52539 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+54675 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+54676 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+56658 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+56659 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+58794 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+58795 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+60929 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+60930 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+63162 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+63163 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+65228 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+65229 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+67216 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+67217 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+69504 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+69504 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+71586 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+71587 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+73507 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+73508 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+75738 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+75738 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+77824 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.70.100:9092) could not be established. Broker may not be available.
+77825 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.70.100:9092 (id: -1 rack: null) disconnected
+79722 [main] INFO  o.a.k.c.producer.KafkaProducer - [Producer clientId=producer-2] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+79733 [main] INFO  ftagentapi.UnitTests - Transfer:{"cid":"1fb02cce-f25a-4619-8032-c67c3a79b701","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer.txt","targetFilename":"/opt/dmz/sys2/out/test_1fb02cce-f25a-4619-8032-c67c3a79b701.txt"}
+79734 [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [192.168.217.93:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = producer-3
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+79743 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 2.5.0
+79744 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 66563e712b0b9f84
+79744 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1615872522771
+79857 [kafka-producer-network-thread | producer-3] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-3] Cluster ID: zcv-cGF8S86rukntW79IQw
+79859 [main] INFO  o.a.k.c.producer.KafkaProducer - [Producer clientId=producer-3] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+79985 [main] INFO  ftagentapi.UnitTests - Message sent:{"cid":"1fb02cce-f25a-4619-8032-c67c3a79b701","operation":"PUT_FILE","traceId":"","sourceSystem":"system-2-dmz","targetSystem":"system-1","originalFilename":"test_1fb02cce-f25a-4619-8032-c67c3a79b701.txt"}
+84084 [main] INFO  ftagentapi.UnitTests - body is: {
+  "cid": "4202a4fa-ef57-4e04-8262-47cc377fe4cb",
+  "fileId": "2bb8ff02-00e4-4da4-8b4c-91c3f523333a",
+  "sourceSystem": "system-3",
+  "targetSystem": "system-1"
+}
+85165 [main] INFO  ftagentapi.UnitTests - body is: {
+  "cid": "602c1ad5-2fa8-421d-89c6-096a8282bd25",
+  "fileId": "2bb8ff02-00e4-4da4-8b4c-91c3f523333a",
+  "sourceSystem": "lpu-adapter",
+  "targetSystem": "mains"
+}
+90740 [main] INFO  ftagentapi.UnitTests - body is: {
+  "cid": "caaa114f-e583-4dea-8cef-b99bb90abfae",
+  "fileId": "2bb8ff02-00e4-4da4-8b4c-91c3f523333a",
+  "sourceSystem": "system-3",
+  "targetSystem": "system-4"
+}

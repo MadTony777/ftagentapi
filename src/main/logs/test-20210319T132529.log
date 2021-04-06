@@ -1,0 +1,306 @@
+287  [main] INFO  ftagentapi.UnitTests - body is: {
+  "cid": "9b7584ac-33f3-4228-86e1-2ee21325c930",
+  "fileId": "2bb8ff02-00e4-4da4-8b4c-91c3f523333a",
+  "sourceSystem": "system-3",
+  "targetSystem": "system-1"
+}
+1447 [main] INFO  ftagentapi.UnitTests - Get File Response: {"traceId":"a8fa50592b7aba3f","cid":"9b7584ac-33f3-4228-86e1-2ee21325c930","description":"Message successfully sent to processing"}
+4519 [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [192.168.70.143:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+4610 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 2.5.0
+4611 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 66563e712b0b9f84
+4611 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1616149534490
+4947 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: 9bvQxLUKSnKvQy2FItjBGw
+4960 [main] INFO  o.a.k.c.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+5082 [main] INFO  ftagentapi.UnitTests - Transfer:{"cid":"06b25c82-f2da-4f71-863b-840d8a2daaf8","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/lan/sys3/out/test_06b25c82-f2da-4f71-863b-840d8a2daaf8.txt"}
+5083 [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [192.168.70.143:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = producer-2
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+5088 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 2.5.0
+5088 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 66563e712b0b9f84
+5088 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1616149534970
+5199 [kafka-producer-network-thread | producer-2] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-2] Cluster ID: 9bvQxLUKSnKvQy2FItjBGw
+5200 [main] INFO  o.a.k.c.producer.KafkaProducer - [Producer clientId=producer-2] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+5333 [main] INFO  ftagentapi.UnitTests - Message sent:{"cid":"06b25c82-f2da-4f71-863b-840d8a2daaf8","operation":"PUT_FILE","traceId":"a8fa50592b7aba3f","sourceSystem":"system-3","targetSystem":"system-1","originalFilename":"test_06b25c82-f2da-4f71-863b-840d8a2daaf8.txt"}
+14803 [main] INFO  ftagentapi.UnitTests - Complete File Transfer Response: 
+17887 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"9b7584ac-33f3-4228-86e1-2ee21325c930","currentState":"COMPLETED","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Target system received file successfully"}
+17915 [main] INFO  ftagentapi.UnitTests - body is: {
+  "cid": "40576aa1-10b1-4010-82cd-8f002850dab7",
+  "fileId": "2bb8ff02-00e4-4da4-8b4c-91c3f523333a",
+  "sourceSystem": "system-2-dmz",
+  "targetSystem": "system-1"
+}
+17994 [main] INFO  ftagentapi.UnitTests - Get File Response: {"traceId":"4863f235caaf9f3e","cid":"40576aa1-10b1-4010-82cd-8f002850dab7","description":"Message successfully sent to processing"}
+20996 [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [192.168.70.143:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = producer-3
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+21012 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 2.5.0
+21013 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 66563e712b0b9f84
+21013 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1616149550893
+21128 [kafka-producer-network-thread | producer-3] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-3] Cluster ID: 9bvQxLUKSnKvQy2FItjBGw
+21129 [main] INFO  o.a.k.c.producer.KafkaProducer - [Producer clientId=producer-3] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+21252 [main] INFO  ftagentapi.UnitTests - Transfer:{"cid":"0cc55150-5d49-481c-8110-d662d0039522","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/dmz/sys2/out/test_0cc55150-5d49-481c-8110-d662d0039522.txt"}
+21253 [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [192.168.217.137:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = producer-4
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+21268 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 2.5.0
+21291 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 66563e712b0b9f84
+21291 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1616149551150
+21418 [kafka-producer-network-thread | producer-4] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-4] Cluster ID: 9yVFeZK2TvOgfr1gmkr42A
+21419 [main] INFO  o.a.k.c.producer.KafkaProducer - [Producer clientId=producer-4] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+21552 [main] INFO  ftagentapi.UnitTests - Message sent:{"cid":"0cc55150-5d49-481c-8110-d662d0039522","operation":"PUT_FILE","traceId":"4863f235caaf9f3e","sourceSystem":"system-2-dmz","targetSystem":"system-1","originalFilename":"test_0cc55150-5d49-481c-8110-d662d0039522.txt"}
+30876 [main] INFO  ftagentapi.UnitTests - Complete File Transfer Response: 
+33963 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"40576aa1-10b1-4010-82cd-8f002850dab7","currentState":"COMPLETED","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Target system received file successfully"}

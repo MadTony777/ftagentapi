@@ -1,0 +1,932 @@
+1603 [main] INFO  ftagentapi.UnitTests - Get From Storage Response: {"traceId":"a7d3b8161fb24512","cid":"3114520d-887b-40a3-ba64-718c399cc498","description":"Message successfully sent to processing"}
+34841 [main] INFO  ftagentapi.UnitTests - Complete File Transfer Response: 
+37952 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3114520d-887b-40a3-ba64-718c399cc498","currentState":"COMPLETED","fileId":"4080d28d-3a6c-4065-b094-daee21cfeea1","description":"Target system received file successfully"}
+38040 [main] INFO  ftagentapi.UnitTests - Get From Storage Response: {"traceId":"43d724a0dee3f612","cid":"1932fd06-f44e-4a51-a883-c2cef6af6e9b","description":"Message successfully sent to processing"}
+71206 [main] INFO  ftagentapi.UnitTests - Complete File Transfer Response: 
+74270 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"1932fd06-f44e-4a51-a883-c2cef6af6e9b","currentState":"COMPLETED","fileId":"4080d28d-3a6c-4065-b094-daee21cfeea1","description":"Target system received file successfully"}
+74441 [main] INFO  ftagentapi.UnitTests - Put To Storage Response: {"cid":"adc4bf06-f885-4584-9db7-0af133bc2e0c","description":"/opt/lan/sys4/out/4117c9cc-8a4d-413a-b0c7-53deaa7f5a40_144j/df"}
+77518 [main] INFO  ftagentapi.UnitTests - Get From Storage Response: {"cid":"1c9559e2-a78e-43c3-8172-fb7e8c87d08b","description":"400 : [{\"traceId\":\"be6b44f3c614a98e\",\"cid\":\"1c9559e2-a78e-43c3-8172-fb7e8c87d08b\",\"type\":\"ERROR\",\"description\":\"java.util.NoSuchElementException: Route 'filestore' -> 'system-3' not found\"}]"}
+80595 [main] INFO  ftagentapi.UnitTests - Put File Response: {"traceId":"ce6ba750ac1dd5c6","cid":"8d78c687-fba5-41a3-a4c2-86d8e6f3f683","description":"Message successfully sent to processing"}
+83619 [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [192.168.217.137:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+83708 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 2.5.0
+83709 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 66563e712b0b9f84
+83710 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1616149520256
+84131 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: 9yVFeZK2TvOgfr1gmkr42A
+84150 [main] INFO  o.a.k.c.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+84279 [main] INFO  ftagentapi.UnitTests - Recieved sent:{"cid":"2d13f7ff-555f-42cb-8ca6-f53436420e6c","traceId":"ce6ba750ac1dd5c6","type":"FILE_RECEIVED"}
+87341 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"8d78c687-fba5-41a3-a4c2-86d8e6f3f683","currentState":"COMPLETED","fileId":"c4e50795-f822-4781-99db-9a012269ed8b","description":"Target system received file successfully"}
+87414 [main] INFO  ftagentapi.UnitTests - Put File Response: {"traceId":"3a80e2bac9de5274","cid":"fee73422-135c-4fd2-8a9d-c0a35bd240d7","description":"Message successfully sent to processing"}
+90415 [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [192.168.70.143:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = producer-2
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+90432 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 2.5.0
+90433 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 66563e712b0b9f84
+90434 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1616149526981
+90548 [kafka-producer-network-thread | producer-2] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-2] Cluster ID: 9bvQxLUKSnKvQy2FItjBGw
+90549 [main] INFO  o.a.k.c.producer.KafkaProducer - [Producer clientId=producer-2] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+90667 [main] INFO  ftagentapi.UnitTests - Recieved sent:{"cid":"922469f0-9e68-43e5-af14-4caa1a5fcfa3","traceId":"3a80e2bac9de5274","type":"FILE_RECEIVED"}
+93774 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"fee73422-135c-4fd2-8a9d-c0a35bd240d7","currentState":"COMPLETED","fileId":"5b414051-59f7-4d6a-8f85-cc7f9ee5d37b","description":"Target system received file successfully"}
+93865 [main] INFO  ftagentapi.UnitTests - Put To Storage Response: {"cid":"690d3fab-7675-49ea-ac52-945ba342761e","description":"400 : [{\"traceId\":\"b5c4148b53e4e7f1\",\"cid\":\"690d3fab-7675-49ea-ac52-945ba342761e\",\"type\":\"ERROR\",\"description\":\"java.util.NoSuchElementException: Route 'system-3' -> 'filestore' not found\"}]"}
+96867 [main] INFO  ftagentapi.UnitTests - body is: {
+  "cid": "c8fc9f59-ca62-4f1b-92f3-20c62eb5986c",
+  "fileId": "2bb8ff02-00e4-4da4-8b4c-91c3f523333a",
+  "sourceSystem": "system-2-dmz",
+  "targetSystem": "system-1"
+}
+96941 [main] INFO  ftagentapi.UnitTests - Get File Response: {"traceId":"01d1ff89ca8519c0","cid":"c8fc9f59-ca62-4f1b-92f3-20c62eb5986c","description":"Message successfully sent to processing"}
+99942 [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [192.168.70.143:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = producer-3
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+99993 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 2.5.0
+99994 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 66563e712b0b9f84
+99994 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1616149536541
+100107 [kafka-producer-network-thread | producer-3] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-3] Cluster ID: 9bvQxLUKSnKvQy2FItjBGw
+100109 [main] INFO  o.a.k.c.producer.KafkaProducer - [Producer clientId=producer-3] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+100225 [main] INFO  ftagentapi.UnitTests - Transfer:{"cid":"9f1a81cc-d844-44c1-9347-2e4e2c71fcff","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/dmz/sys2/out/test_9f1a81cc-d844-44c1-9347-2e4e2c71fcff.txt"}
+100225 [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [192.168.217.137:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = producer-4
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+100229 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 2.5.0
+100229 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 66563e712b0b9f84
+100229 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1616149536778
+100341 [kafka-producer-network-thread | producer-4] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-4] Cluster ID: 9yVFeZK2TvOgfr1gmkr42A
+100343 [main] INFO  o.a.k.c.producer.KafkaProducer - [Producer clientId=producer-4] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+100464 [main] INFO  ftagentapi.UnitTests - Message sent:{"cid":"9f1a81cc-d844-44c1-9347-2e4e2c71fcff","operation":"PUT_FILE","traceId":"01d1ff89ca8519c0","sourceSystem":"system-2-dmz","targetSystem":"system-1","originalFilename":"test_9f1a81cc-d844-44c1-9347-2e4e2c71fcff.txt"}
+109761 [main] INFO  ftagentapi.UnitTests - Complete File Transfer Response: 
+112835 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"c8fc9f59-ca62-4f1b-92f3-20c62eb5986c","currentState":"COMPLETED","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Target system received file successfully"}
+112840 [main] INFO  ftagentapi.UnitTests - body is: {
+  "cid": "92fc4654-49b1-4f13-bc57-9fb920ab471d",
+  "fileId": "2bb8ff02-00e4-4da4-8b4c-91c3f523333a",
+  "sourceSystem": "system-3",
+  "targetSystem": "system-1"
+}
+112912 [main] INFO  ftagentapi.UnitTests - Get File Response: {"traceId":"d30c6bc2e610c657","cid":"92fc4654-49b1-4f13-bc57-9fb920ab471d","description":"Message successfully sent to processing"}
+115914 [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [192.168.70.143:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = producer-5
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+115924 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 2.5.0
+115925 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 66563e712b0b9f84
+115925 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1616149552473
+116038 [kafka-producer-network-thread | producer-5] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-5] Cluster ID: 9bvQxLUKSnKvQy2FItjBGw
+116040 [main] INFO  o.a.k.c.producer.KafkaProducer - [Producer clientId=producer-5] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+116161 [main] INFO  ftagentapi.UnitTests - Transfer:{"cid":"d166b34b-a7f7-45dc-bb83-fda00199d13c","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/lan/sys3/out/test_d166b34b-a7f7-45dc-bb83-fda00199d13c.txt"}
+116162 [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [192.168.70.143:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = producer-6
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+116171 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 2.5.0
+116172 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 66563e712b0b9f84
+116173 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1616149552720
+116284 [kafka-producer-network-thread | producer-6] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-6] Cluster ID: 9bvQxLUKSnKvQy2FItjBGw
+116286 [main] INFO  o.a.k.c.producer.KafkaProducer - [Producer clientId=producer-6] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+116405 [main] INFO  ftagentapi.UnitTests - Message sent:{"cid":"d166b34b-a7f7-45dc-bb83-fda00199d13c","operation":"PUT_FILE","traceId":"d30c6bc2e610c657","sourceSystem":"system-3","targetSystem":"system-1","originalFilename":"test_d166b34b-a7f7-45dc-bb83-fda00199d13c.txt"}
+126110 [main] INFO  ftagentapi.UnitTests - Complete File Transfer Response: 
+129171 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"92fc4654-49b1-4f13-bc57-9fb920ab471d","currentState":"COMPLETED","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Target system received file successfully"}
+129173 [main] INFO  ftagentapi.UnitTests - body is: {
+  "cid": "3b284664-1b47-4709-b709-3c60c35ce2b7",
+  "fileId": "2bb8ff02-00e4-4da4-8b4c-91c3f523333a",
+  "sourceSystem": "lpu-adapter",
+  "targetSystem": "mains"
+}
+129251 [main] INFO  ftagentapi.UnitTests - Get File Response: {"traceId":"2d5d859bdcac6562","cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","description":"Message successfully sent to processing"}
+132311 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+132376 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+132446 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+132512 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+132580 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+132641 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+132702 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+132768 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+132837 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+132904 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+132971 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+133039 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+133106 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+133173 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+133240 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+133308 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+133374 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+133442 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+133509 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+133578 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+133643 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+133710 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+133778 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+133843 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+133909 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+133980 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+134051 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+134116 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+134182 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+134250 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+134316 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+134383 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+134448 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+134516 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+134582 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+134642 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+134705 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+134770 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+134834 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+134899 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+134965 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+135030 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+135094 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+135154 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+135216 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+135280 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+135340 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+135406 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+135469 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+135535 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+135599 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+135667 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+135733 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+135799 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+135864 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+135931 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+135995 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+136059 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+136120 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+136186 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+136251 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+136322 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+136395 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+136467 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+136527 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+136592 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+136658 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+136721 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+136783 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+136848 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+136907 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+136967 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+137026 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+137122 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+137185 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+137244 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+137302 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+137366 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+137431 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+137496 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+137560 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+137625 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+137688 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+137752 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+137815 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+137877 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+137934 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+137992 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+138049 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+138110 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+138168 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+138227 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+138284 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+138343 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+138409 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+138476 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+138537 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+138603 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+138668 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+138729 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+138794 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+138869 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+138946 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+139022 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+139093 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+139158 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+139223 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+139287 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+139351 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+139415 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+139476 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+139540 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+139604 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+139669 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+139732 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+139796 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+139859 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+139923 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+139989 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+140054 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+140114 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+140178 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+140237 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+140301 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+140366 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+140431 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+140494 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+140557 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+140621 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+140684 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+140747 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+140811 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+140875 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+140940 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+141004 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+141076 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+141149 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+141216 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+141279 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+141343 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+141407 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+141471 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+141534 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+141597 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+141662 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+141726 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+141790 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+141854 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+141917 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+141980 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+142043 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+142111 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+142174 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+142236 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+142301 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+142362 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+142425 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+142487 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+142548 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+142611 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+142675 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+142738 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+142799 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+142862 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+142927 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+142990 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+143054 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+143117 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+143182 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+143243 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+143301 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+143360 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+143419 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+143482 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+143545 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+143608 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+143672 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+143736 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+143799 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+143861 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+143922 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+143985 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+144048 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+144109 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+144172 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+144235 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+144300 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+144363 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+144426 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+144489 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+144552 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+144616 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+144679 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+144742 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+144804 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+144867 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+144930 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+144992 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+145056 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+145118 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+145180 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+145242 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+145305 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+145368 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+145430 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+145493 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+145561 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+145624 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+145686 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+145750 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+145812 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+145874 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+145936 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+146000 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+146064 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+146123 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+146187 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+146250 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+146312 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+146378 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+146441 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+146499 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+146558 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+146620 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+146684 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+146747 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+146809 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+146875 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+146944 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+147016 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+147090 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+147156 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+147223 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+147284 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+147349 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+147412 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+147476 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+147540 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+147607 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+147671 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+147734 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+147797 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+147860 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+147923 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+147986 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+148049 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+148113 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+148176 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+148236 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+148298 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+148363 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+148425 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+148489 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+148552 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+148614 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+148678 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+148740 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+148803 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+148866 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+148930 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+148999 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+149061 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+149124 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+149188 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+149251 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+149314 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+149376 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+149439 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+149501 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+149563 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+149623 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+149686 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+149744 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+149802 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+149866 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+149930 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+149994 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+150056 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+150119 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+150180 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+150241 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+150303 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+150366 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+150440 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+150507 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+150578 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+150647 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+150709 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+150774 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+150836 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+150898 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+150961 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+151024 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+151086 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+151149 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+151213 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+151277 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+151340 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+151403 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+151467 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+151529 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+151592 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+151657 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+151720 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+151781 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+151844 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+151908 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+151970 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+152032 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+152095 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+152159 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+152224 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+152288 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+152351 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+152413 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+152472 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+152531 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+152590 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+152651 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+152714 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+152773 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+152835 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+152897 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+152960 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+153022 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+153084 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+153147 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+153212 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+153276 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+153340 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+153403 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+153465 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+153526 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+153590 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+153652 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+153715 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+153778 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+153840 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+153903 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+153966 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+154028 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+154093 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+154164 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+154235 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+154300 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+154361 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+154420 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+154481 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+154543 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+154605 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+154667 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+154728 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+154787 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+154845 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+154902 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+154965 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+155027 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+155089 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+155150 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+155221 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+155285 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+155347 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+155409 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+155469 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+155532 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+155594 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+155657 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+155718 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+155780 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+155843 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+155906 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+155969 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+156031 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+156093 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+156155 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+156217 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+156279 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+156341 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+156405 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+156469 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+156550 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+156621 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+156682 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+156747 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+156808 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+156871 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+156933 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+156998 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+157059 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+157122 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+157187 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+157250 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+157312 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+157377 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+157440 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+157501 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+157564 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+157626 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+157687 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+157751 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+157811 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+157874 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_GET_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Sent request for get file from source system"}
+157939 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"AV_AGENT_CHECKING","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Successfully moved into av folder"}
+158001 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"AV_AGENT_CHECKING","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Successfully moved into av folder"}
+158067 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"AV_AGENT_CHECKING","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Successfully moved into av folder"}
+158129 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"AV_AGENT_CHECKING","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Successfully moved into av folder"}
+158190 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"AV_AGENT_CHECKING","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Successfully moved into av folder"}
+158251 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"AV_AGENT_CHECKING","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Successfully moved into av folder"}
+158313 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"AV_AGENT_CHECKING","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Successfully moved into av folder"}
+158375 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"AV_AGENT_CHECKING","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Successfully moved into av folder"}
+158436 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"AV_AGENT_CHECKING","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Successfully moved into av folder"}
+158497 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"AV_AGENT_CHECKING","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Successfully moved into av folder"}
+158559 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"AV_AGENT_CHECKING","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Successfully moved into av folder"}
+158620 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"AV_AGENT_CHECKING","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Successfully moved into av folder"}
+158681 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"AV_AGENT_CHECKING","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Successfully moved into av folder"}
+158742 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"AV_AGENT_CHECKING","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Successfully moved into av folder"}
+158807 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"AV_AGENT_CHECKING","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Successfully moved into av folder"}
+158869 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"AV_AGENT_CHECKING","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Successfully moved into av folder"}
+158932 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"AV_AGENT_CHECKING","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Successfully moved into av folder"}
+158993 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"AV_AGENT_CHECKING","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Successfully moved into av folder"}
+159058 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"AV_AGENT_CHECKING","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Successfully moved into av folder"}
+159116 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"AV_AGENT_CHECKING","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Successfully moved into av folder"}
+159178 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"AV_AGENT_CHECKING","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Successfully moved into av folder"}
+159243 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"IN_TRANSFER_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"successfully checked by kav-agent"}
+159307 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"IN_TRANSFER_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"successfully checked by kav-agent"}
+159370 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"IN_TRANSFER_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"successfully checked by kav-agent"}
+159431 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"IN_TRANSFER_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"successfully checked by kav-agent"}
+159490 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"IN_TRANSFER_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"successfully checked by kav-agent"}
+159551 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"IN_TRANSFER_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"successfully checked by kav-agent"}
+159610 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"IN_TRANSFER_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"successfully checked by kav-agent"}
+159672 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"IN_TRANSFER_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"successfully checked by kav-agent"}
+159736 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"IN_TRANSFER_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"successfully checked by kav-agent"}
+159797 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"IN_TRANSFER_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"successfully checked by kav-agent"}
+159859 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"IN_TRANSFER_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"successfully checked by kav-agent"}
+159921 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"IN_TRANSFER_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"successfully checked by kav-agent"}
+159982 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"IN_TRANSFER_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"successfully checked by kav-agent"}
+160043 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"IN_TRANSFER_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"successfully checked by kav-agent"}
+160102 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"IN_TRANSFER_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"successfully checked by kav-agent"}
+160166 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"IN_TRANSFER_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"successfully checked by kav-agent"}
+160227 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"IN_TRANSFER_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"successfully checked by kav-agent"}
+160284 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"IN_TRANSFER_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"successfully checked by kav-agent"}
+160345 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"IN_TRANSFER_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"successfully checked by kav-agent"}
+160406 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"IN_TRANSFER_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"successfully checked by kav-agent"}
+160467 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"IN_TRANSFER_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"successfully checked by kav-agent"}
+160528 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"IN_TRANSFER_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"successfully checked by kav-agent"}
+160589 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"IN_TRANSFER_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"successfully checked by kav-agent"}
+160651 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"IN_TRANSFER_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"successfully checked by kav-agent"}
+160713 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"3b284664-1b47-4709-b709-3c60c35ce2b7","currentState":"SYS_NOTIFY_PUT_SENT","fileId":"2bb8ff02-00e4-4da4-8b4c-91c3f523333a","description":"Successfully moved into system folder"}
+165322 [main] INFO  ftagentapi.UnitTests - Put To Storage Response: {"traceId":"56c29a4d6cfa8265","cid":"c6bb5c2a-1216-4c22-bce6-b158e6dfd958","description":"Message successfully sent to processing"}
+171385 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"c6bb5c2a-1216-4c22-bce6-b158e6dfd958","currentState":"COMPLETED","fileId":"13f6216b-9ed0-4c3a-88a3-7e0bd4cb83b5","description":"Target system received file successfully"}
+171463 [main] INFO  ftagentapi.UnitTests - Put To Storage Response: {"traceId":"f746139f3fab183c","cid":"33fc9fee-0ed1-4ba7-a7f1-42c72d89f6ee","description":"Message successfully sent to processing"}
+177526 [main] INFO  ftagentapi.UnitTests - Status Response: {"cid":"33fc9fee-0ed1-4ba7-a7f1-42c72d89f6ee","currentState":"COMPLETED","fileId":"c8f03161-1078-4f20-8924-2cf57c1eb7c1","description":"Target system received file successfully"}
+177602 [main] INFO  ftagentapi.UnitTests - Put File Response: {"cid":"61abe3ab-0255-4f6a-b23c-3bfa60a8c557","description":"400 : [{\"traceId\":\"760b97d58540e50e\",\"cid\":\"61abe3ab-0255-4f6a-b23c-3bfa60a8c557\",\"type\":\"ERROR\",\"description\":\"java.util.NoSuchElementException: Route 'system-3' -> 'filestore' not found\"}]"}
+180673 [main] INFO  ftagentapi.UnitTests - Get From Storage Response: {"traceId":"56d8480f6aa146c9","cid":"3775be47-0316-4218-9307-a25e6f2df3f1","description":"Message successfully sent to processing"}
+186797 [main] INFO  ftagentapi.UnitTests - Complete File Transfer Response: {"exception":"java.lang.IllegalStateException: Current state for process 56d8480f6aa146c9 must be SYS_NOTIFY_PUT_SENT, but actual is SYS_NOTIFY_GET_SENT"}
+186802 [main] INFO  ftagentapi.UnitTests - body is: {
+  "cid": "a67fda3a-af1f-494c-9cc2-e199b5342089",
+  "fileId": "2bb8ff02-00e4-4da4-8b4c-91c3f523333a",
+  "sourceSystem": "system-3",
+  "targetSystem": "system-4"
+}
+186871 [main] INFO  ftagentapi.UnitTests - Get File Response: {"cid":"a67fda3a-af1f-494c-9cc2-e199b5342089","description":"400 : [{\"traceId\":\"c6c0e968d6a2d1af\",\"cid\":\"a67fda3a-af1f-494c-9cc2-e199b5342089\",\"type\":\"ERROR\",\"description\":\"java.util.NoSuchElementException: Route 'system-3' -> 'system-4' not found\"}]"}

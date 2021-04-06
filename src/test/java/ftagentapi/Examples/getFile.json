@@ -1,0 +1,6 @@
+{
+  "cid": "${CID}",
+  "fileId": "2bb8ff02-00e4-4da4-8b4c-91c3f523333a",
+  "sourceSystem": "${SOURCE}",
+  "targetSystem": "${TARGET}"
+}
